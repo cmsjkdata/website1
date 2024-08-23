@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[124],{124:(e,a,s)=>{s.r(a),s.d(a,{default:()=>c});s(43);var t=s(579);const c=()=>(0,t.jsxs)("section",{id:"about",className:"p-8 bg-gray-100 text-gray-900",children:[(0,t.jsx)("h2",{className:"text-2xl font-bold",children:"About Me"}),(0,t.jsx)("p",{className:"mt-4",children:"I am a passionate developer with experience in React, JavaScript, and CSS."})]})}}]);
+//# sourceMappingURL=124.d0a6987d.chunk.js.map
