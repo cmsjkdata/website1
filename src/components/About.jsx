@@ -7,8 +7,8 @@ const About = () => {
       <h2 className="text-2xl font-bold">About Me</h2>
       <div className="mt-4 max-w-3xl mx-auto">
         <p className="mb-4">
-          Hello! I’m [Your Name], xfg a passionate developer and event manager with over [X] years
-          of experience in creating dynamic web applications and organizing memorable events. My
+          Hello! I’m [Your Name], a passionate developer and event manager with over [X] years of
+          experience in creating dynamic web applications and organizing memorable events. My
           journey began with a fascination for coding and has expanded to include a deep expertise
           in event planning through my role at Mella.
         </p>
