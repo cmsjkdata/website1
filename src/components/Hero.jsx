@@ -14,10 +14,9 @@ const Hero = () => {
         height: "100vh",
       }}
     >
-      <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative md:text-9xl  z-10 md:flex  flex-col items-center justify-center h-full text-center text-white">
         <motion.h1
-          className="mt-8 px-6 py-3 bg-orange-500 rounded-full text-white hover:bg-orange-600"
+          className=" px-6 py-3 bg-orange-500 rounded-full text-white hover:bg-orange-600"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
