@@ -8,8 +8,8 @@ import { motion } from "framer-motion";
 
 function App() {
   return (
-    <div className=" text-white source-code-pro-1 bg-black">
-      <div className="p-8 flex justify-between ">
+    <div className="  text-white source-code-pro-1 bg-black">
+      <div className="p-8    flex justify-between ">
         <div className="mt-8 border-spacing-2 p-4 gap-2 md:flex border-emerald-600 border-2  ">
           <div className="border-spacing-2 md:inline-block border-emerald-600 border-2 my-3  p-3">
             <h2 className="text-2xl   text-red-500 ">{"<projects/>"}</h2>
@@ -33,12 +33,13 @@ function App() {
           </div>
         </div>
       </div>
+
       <section
-        className="relative p-8 h-screen bg-cover bg-center"
+        className=" p-8  "
         style={{
           // backgroundImage: `url("/img/Leonardo_Phoenix_Create_an_image_of_a_confident_young_boy_stan_3.jpg")`,
           // backgroundSize: "cover",
-          backgroundPosition: " fixed",
+          // backgroundPosition: " fixed",
           width: "100%",
           height: "50vh",
         }}
@@ -79,41 +80,142 @@ function App() {
           </motion.a>
         </div>
       </section>
-      <div className="p-8 ">
-        <div className="mt-8 border-spacing-2 p-4 border-emerald-600 border-2  ">
-          <div className="border-spacing-2 border-emerald-600 border-2 my-3  p-3">
+
+      <div
+        style={{
+          // backgroundImage: `url("/img/Leonardo_Phoenix_Create_an_image_of_a_confident_young_boy_stan_3.jpg")`,
+          // backgroundSize: "cover",
+          backgroundPosition: " fixed",
+          width: "100%",
+          // height: "100vh",
+        }}
+        className="p-8 "
+      >
+        <div className="mt-8  bg-black border-spacing-2 p-4 border-emerald-600 border-2  ">
+          <div className="border-spacing-2 inline-block border-emerald-600 border-2 my-3  p-3">
             <h2 className="text-4xl  text-red-500 ">{"<projects>"}</h2>
           </div>
-          <div className="grid  grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="project-card  border-spacing-2 border-emerald-600 border-2  p-4  ">
-              <h3 className="text-2xl">{"<project_one>"}</h3>
-              <p className="mt-2">Description of project one.</p>
-              <a href="#">
-                <div className="text-blue-500 border-spacing-2 my-2   inline-block border-emerald-600 border-2  p-4">
-                  {"View Project() => "}
+          <div className="external">
+            <ul className="horizontal-scroll-wrapper  pb-40">
+              <li className="card__content " id="card_1">
+                <div className="grid bg-black grid-cols-2 gap-8">
+                  <div className="project-card  border-spacing-2 border-emerald-600 border-2  p-4  ">
+                    <h3 className="text-2xl">{"<project_one>"}</h3>
+                    <p className="mt-2">Description of project one.</p>
+                    <a href="#">
+                      <div className="text-blue-500 border-spacing-2 my-2   inline-block border-emerald-600 border-2  p-4">
+                        {"View Project() => "}
+                      </div>
+                    </a>
+                    <h3 className="text-2xl">{"<project_one/>"}</h3>
+                  </div>
+                  <div className="project-card  border-spacing-2 border-emerald-600 border-2  p-4  ">
+                    <h3 className="text-xl">{"<project_two/>"}</h3>
+                    <p className="mt-2">Description of project two.</p>
+                    <a href="#">
+                      <div className="text-blue-500 border-spacing-2 my-2   inline-block border-emerald-600 border-2  p-4">
+                        {"View Project() => "}
+                      </div>
+                    </a>
+                    <h3 className="text-xl">{"<project_two/>"}</h3>
+                  </div>
                 </div>
-              </a>
-              <h3 className="text-2xl">{"<project_one/>"}</h3>
-            </div>
-            <div className="project-card  border-spacing-2 border-emerald-600 border-2  p-4  ">
-              <h3 className="text-xl">{"<project_two/>"}</h3>
-              <p className="mt-2">Description of project two.</p>
-              <a href="#">
-                <div className="text-blue-500 border-spacing-2 my-2   inline-block border-emerald-600 border-2  p-4">
-                  {"View Project() => "}
+              </li>
+              <li className="card__content" id="card_1">
+                <div className="grid bg-black grid-cols-2 gap-8">
+                  <div className="project-card  border-spacing-2 border-emerald-600 border-2  p-4  ">
+                    <h3 className="text-2xl">{"<project_one>"}</h3>
+                    <p className="mt-2">Description of project one.</p>
+                    <a href="#">
+                      <div className="text-blue-500 border-spacing-2 my-2   inline-block border-emerald-600 border-2  p-4">
+                        {"View Project() => "}
+                      </div>
+                    </a>
+                    <h3 className="text-2xl">{"<project_one/>"}</h3>
+                  </div>
+                  <div className="project-card  border-spacing-2 border-emerald-600 border-2  p-4  ">
+                    <h3 className="text-xl">{"<project_two/>"}</h3>
+                    <p className="mt-2">Description of project two.</p>
+                    <a href="#">
+                      <div className="text-blue-500 border-spacing-2 my-2   inline-block border-emerald-600 border-2  p-4">
+                        {"View Project() => "}
+                      </div>
+                    </a>
+                    <h3 className="text-xl">{"<project_two/>"}</h3>
+                  </div>
                 </div>
-              </a>
-              <h3 className="text-xl">{"<project_two/>"}</h3>
-            </div>
+              </li>
+              <li className="card__content " id="card_1">
+                <div className="grid bg-black  grid-cols-2 gap-8">
+                  <div className="project-card  border-spacing-2 border-emerald-600 border-2  p-4  ">
+                    <h3 className="text-2xl">{"<project_one>"}</h3>
+                    <p className="mt-2">Description of project one.</p>
+                    <a href="#">
+                      <div className="text-blue-500 border-spacing-2 my-2   inline-block border-emerald-600 border-2  p-4">
+                        {"View Project() => "}
+                      </div>
+                    </a>
+                    <h3 className="text-2xl">{"<project_one/>"}</h3>
+                  </div>
+                  <div className="project-card  border-spacing-2 border-emerald-600 border-2  p-4  ">
+                    <h3 className="text-xl">{"<project_two/>"}</h3>
+                    <p className="mt-2">Description of project two.</p>
+                    <a href="#">
+                      <div className="text-blue-500 border-spacing-2 my-2   inline-block border-emerald-600 border-2  p-4">
+                        {"View Project() => "}
+                      </div>
+                    </a>
+                    <h3 className="text-xl">{"<project_two/>"}</h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
-          <div className="border-spacing-2 border-emerald-600 border-2 my-3  p-3">
+
+          <div className="border-spacing-2 inline-block border-emerald-600 border-2 my-3  p-3">
             <h2 className="text-4xl  text-red-500 ">{"<projects/>"}</h2>
           </div>
         </div>
       </div>
-      <div className="p-8 ">
-        <div className="mt-8 border-spacing-2 p-4 border-emerald-600 border-2  ">
-          <div className="border-spacing-2 border-emerald-600 border-2 my-3  p-3">
+
+      <div className="p-8  ">
+        <div className="mt-8 bg-black border-spacing-2 p-4 border-emerald-600 border-2  ">
+          <div className="border-spacing-2 inline-block border-emerald-600 border-2 my-3  p-3">
+            <h2 className="text-4xl  text-red-500 ">{"<skills/>"}</h2>
+          </div>
+          <div className=" flex flex-col   gap-3 ">
+            <div className=" border-spacing-2  inline-block border-emerald-600 border-2  p-4  ">
+              <h3 className="text-2xl">{"<react_js>"}</h3>
+            </div>
+
+            <div className=" border-spacing-2  inline-block border-emerald-600 border-2  p-4  ">
+              <h3 className="text-2xl">{"<JavaScript>"}</h3>
+            </div>
+            <div className=" border-spacing-2  inline-block border-emerald-600 border-2  p-4  ">
+              <h3 className="text-2xl">{"<HTML>"}</h3>
+            </div>
+            <div className=" border-spacing-2  inline-block border-emerald-600 border-2  p-4  ">
+              <h3 className="text-2xl">{"<CSS>"}</h3>
+            </div>
+          </div>
+          <div className="border-spacing-2 inline-block border-emerald-600 border-2 my-3  p-3">
+            <h2 className="text-4xl  text-red-500 ">{"<skills/>"}</h2>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          // backgroundImage: `url("/img/Leonardo_Phoenix_Create_an_image_of_a_confident_young_boy_stan_3.jpg")`,
+          // backgroundSize: "cover",
+          backgroundPosition: " fixed",
+          width: "100%",
+          // height: "100vh",
+        }}
+        className="p-8 "
+      >
+        <div className="mt-8 bg-black border-spacing-2 p-4 border-emerald-600 border-2  ">
+          <div className="border-spacing-2 inline-block  border-emerald-600 border-2 my-3  p-3">
             <h2 className="text-4xl  text-red-500 ">{"<about_me>"}</h2>
           </div>
           <div className="grid  grid-cols-1 md:grid-cols-2 gap-8">
@@ -135,38 +237,15 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="border-spacing-2 border-emerald-600 border-2 my-3  p-3">
+          <div className="border-spacing-2 inline-block border-emerald-600 border-2 my-3  p-3">
             <h2 className="text-4xl  text-red-500 ">{"<about_me/>"}</h2>
           </div>
         </div>
       </div>
+
       <div className="p-8 ">
         <div className="mt-8 border-spacing-2 p-4 border-emerald-600 border-2  ">
-          <div className="border-spacing-2 border-emerald-600 border-2 my-3  p-3">
-            <h2 className="text-4xl  text-red-500 ">{"<skills/>"}</h2>
-          </div>
-          <div className=" flex flex-col gap-3 ">
-            <div className=" border-spacing-2  inline-block border-emerald-600 border-2  p-4  ">
-              <h3 className="text-2xl">{"<react_js>"}</h3>
-            </div>
-            <div className=" border-spacing-2  inline-block border-emerald-600 border-2  p-4  ">
-              <h3 className="text-2xl">{"<JavaScript>"}</h3>
-            </div>
-            <div className=" border-spacing-2  inline-block border-emerald-600 border-2  p-4  ">
-              <h3 className="text-2xl">{"<HTML>"}</h3>
-            </div>
-            <div className=" border-spacing-2  inline-block border-emerald-600 border-2  p-4  ">
-              <h3 className="text-2xl">{"<CSS>"}</h3>
-            </div>
-          </div>
-          <div className="border-spacing-2 border-emerald-600 border-2 my-3  p-3">
-            <h2 className="text-4xl  text-red-500 ">{"<skills/>"}</h2>
-          </div>
-        </div>
-      </div>
-      <div className="p-8 ">
-        <div className="mt-8 border-spacing-2 p-4 border-emerald-600 border-2  ">
-          <div className="border-spacing-2 border-emerald-600 border-2 my-3  p-3">
+          <div className="border-spacing-2 inline-block border-emerald-600 border-2 my-3  p-3">
             <h2 className="text-4xl  text-red-500 ">{"<about_me>"}</h2>
           </div>
           <div className="grid  grid-cols-1 md:grid-cols-2 gap-8">
@@ -196,19 +275,18 @@ function App() {
                 <h2 className="text-2xl  text-red-500 ">{"</personal_interests>"}</h2>
               </div>
             </div>
+            <a href="/path-to-your-resume.pdf" download>
+              <div className="text-blue-500 border-spacing-2 my-2   shadow-sm hover:shadow-md shadow-white  inline-block border-emerald-600 border-2  p-4">
+                {"     download_my_resume() => "}
+              </div>
+            </a>
           </div>
-          <a href="/path-to-your-resume.pdf" download>
-            <div className="text-blue-500 border-spacing-2 my-2   shadow-sm hover:shadow-md shadow-white  inline-block border-emerald-600 border-2  p-4">
-              {"     download_my_resume() => "}
-            </div>
-          </a>
 
-          <div className="border-spacing-2 border-emerald-600 border-2 my-3  p-3">
+          <div className="border-spacing-2 inline-block border-emerald-600 border-2 my-3  p-3">
             <h2 className="text-4xl  text-red-500 ">{"</about_me>"}</h2>
           </div>
         </div>
       </div>
-
       <footer className=" px-8 py-2 text-center">
         <div className="border-spacing-2 border-emerald-600 border-2 my-3  p-3">
           <p className="text-xl  text-red-500 ">
