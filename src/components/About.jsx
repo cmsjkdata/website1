@@ -57,6 +57,7 @@ const About = () => {
         </div>
       </div>
     </section>
+    // https://taupe-cupcake-01a2ce.netlify.app/
   );
 };
 
